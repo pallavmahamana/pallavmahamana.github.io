@@ -34,6 +34,25 @@ Pallav Mahamana
         }
     </style>
     
+    <script>
+  
+        $(function() {
+  $('a[href*=#]:not([href=#])').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'') && location.hostname == this.hostname) {
+      var target = $(this.hash);
+      target = target.length ? target : $('[name=' + this.hash.slice(1) +']');
+      if (target.length) {
+        $('html,body').animate({
+          scrollTop: target.offset().top
+        }, 600);
+        return false;
+      }
+    }
+  });
+});
+    
+    </script>
+    
 </head>
 
 <body>
@@ -50,7 +69,7 @@ Pallav Mahamana
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
         <li class="active"><a href="#">About<span class="sr-only">(current)</span></a></li>
-        <li><a href="#projects">Projects</a></li>
+        <li><a id="proj" href="#projects">Projects</a></li>
       </ul>
     </div>
   </div>
@@ -60,8 +79,8 @@ Pallav Mahamana
     <div id="front">
     <center>
     <img src="images/profile.jpg" class="img-circle" style="height:auto;width:auto;max-width:20%;min-width:18%;border-style:solid;border-width:0.5vw;border-color:white;"/>
-    <h1 style="color:#FFF5EE;font-size:6vh;"> Hello Curious !!! My Name is <b>Pallav Mahamana</b></h1>
-    <h2 style="color:#FFF5EE;font-size:4vh">I  &hearts;  to Explore The Geekbox and Learn New Things. </h2>
+       <h1 style="color:#FFF5EE;font-size:5.6vw;">Hello Curious !!!</h1><h1 style="color:#FFF5EE;font-size:6.0vw;"> My Name is <b style="color:#FFF5EE;font-size:6.4vw;">Pallav Mahamana</b></h1>
+    <h2 style="color:#FFF5EE;font-size:4vw">I  &hearts;  to Explore The Geekbox and Learn New Things. </h2>
     </center>
     </div>
     
