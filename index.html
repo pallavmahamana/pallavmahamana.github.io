@@ -50,14 +50,20 @@
             background-size: cover;
             height: 100vh;
             font-family: 'Fjord One', serif;
-			margin-top:55px;
+	    margin-top:55px;
         }
         @media (max-width: 480px) {
             #front {
                 background-image: url('images/back-mobile.png');
             }
         }
-        #projects {}
+        #projects {
+		background-image:url('images/projback.jpg');
+        background-size: contain;
+        background-size: cover;
+        
+	   }
+      
     </style>
 
 
@@ -154,7 +160,7 @@
         
         
         
-      <div class="col-sm-12 col-md-6 col-lg-3">
+      <div class="col-sm-12 col-md-6 col-lg-3" id="proj-content">
         <div class="thumbnail">
           <img data-holder-rendered="true" src="/images/codechefalerts.png" style="height: 30vh; width: 100%; display: block;" data-src="holder.js/100%x200" alt="Codechef Alerts">
           <div class="caption">
