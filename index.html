@@ -7,9 +7,12 @@
     </title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/css/toastr.min.css">
     <link href='http://fonts.googleapis.com/css?family=Fjord+One' rel='stylesheet' type='text/css'>
     <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/toastr.js/latest/js/toastr.min.js"></script>
+	
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
     <style>
@@ -63,6 +66,7 @@
         background-size: cover;
         
 	   }
+
 	   
 	   
       
@@ -71,7 +75,7 @@
 
     <script>        
 
-	
+
 	
         $(function() {
             $('a[href*=#]').click(function(e) {
@@ -171,7 +175,7 @@
 
     <div id="front">
         <center>
-            <img src="images/profile2.png" id="profileimg" ondblclick='document.getElementById("profileimg").src="./images/profile.jpg"' class="img-circle" style="height:30vh;border-style:solid;border-width:0.4vw;border-color:white;" />
+            <img src="images/profile2.png" id="profileimg" ondblclick='document.getElementById("profileimg").src="./images/profile.jpg";toastr.info("10XP ! New Picture Unlocked :)");document.getElementById("profileimg").removeAttribute("ondblclick");' class="img-circle" style="height:30vh;border-style:solid;border-width:0.4vw;border-color:white;" />
             <h1 style="color:#FFF5EE;font-size:5.6vw;">Hello Curious !!!</h1>
             <h1 style="color:#FFF5EE;font-size:6.0vw;"> My Name is <b style="color:#FFF5EE;font-size:6.4vw;">Pallav Mahamana</b></h1>
             <h2 style="color:#FFF5EE;font-size:4vw">I  &hearts;  to Explore The Geekbox <i class="fa fa-desktop"></i>
