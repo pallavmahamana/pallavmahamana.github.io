@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pallav Mahamana</title>
-    <link>pallavmahamana.github.io/</link>
-    <description>Recent content on Pallav Mahamana</description>
+    <title>Posts on Pallav Mahamana</title>
+    <link>pallavmahamana.github.io/posts/</link>
+    <description>Recent content in Posts on Pallav Mahamana</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2020, Pallav Mahamana</copyright>
     <lastBuildDate>Wed, 08 Jul 2020 14:36:16 +0530</lastBuildDate>
     
-	<atom:link href="pallavmahamana.github.io/index.xml" rel="self" type="application/rss+xml" />
+	<atom:link href="pallavmahamana.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
     
     
     <item>
