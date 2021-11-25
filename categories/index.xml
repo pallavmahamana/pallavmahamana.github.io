@@ -7,9 +7,19 @@
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <copyright>&amp;copy; Copyright 2020, Pallav Mahamana</copyright>
+    <lastBuildDate>Wed, 08 Jul 2020 14:36:16 +0530</lastBuildDate>
     
 	<atom:link href="/categories/index.xml" rel="self" type="application/rss+xml" />
     
+    
+    <item>
+      <title>Machine Intelligence</title>
+      <link>/categories/machine-intelligence/</link>
+      <pubDate>Wed, 08 Jul 2020 14:36:16 +0530</pubDate>
+      
+      <guid>/categories/machine-intelligence/</guid>
+      <description></description>
+    </item>
     
   </channel>
 </rss>

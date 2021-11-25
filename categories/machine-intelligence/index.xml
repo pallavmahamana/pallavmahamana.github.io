@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Machine Intelligence on Pallav Mahamana</title>
+    <link>/categories/machine-intelligence/</link>
+    <description>Recent content in Machine Intelligence on Pallav Mahamana</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <copyright>&amp;copy; Copyright 2020, Pallav Mahamana</copyright>
+    <lastBuildDate>Wed, 08 Jul 2020 14:36:16 +0530</lastBuildDate>
+    
+	<atom:link href="/categories/machine-intelligence/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Technical Singularity</title>
+      <link>/posts/technical-singularity/</link>
+      <pubDate>Wed, 08 Jul 2020 14:36:16 +0530</pubDate>
+      
+      <guid>/posts/technical-singularity/</guid>
+      <description>Technical Singularity  Suppose we could tailor the Singularity. Suppose we could attain our most extravagant hopes. What then would we ask for? That humans themselves would become their own successors, that whatever injustice occurred would be tempered by our knowledge of our roots. For those who remained unaltered, the goal would be benign treatment (perhaps even giving the stay-behinds the appearance of being masters of godlike slaves). It could be a golden age that also involved progress (leaping Stent&amp;rsquo;s barrier).</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -3,6 +3,16 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
+    <loc>/categories/</loc>
+    <lastmod>2020-07-08T14:36:16+05:30</lastmod>
+  </url>
+  
+  <url>
+    <loc>/categories/machine-intelligence/</loc>
+    <lastmod>2020-07-08T14:36:16+05:30</lastmod>
+  </url>
+  
+  <url>
     <loc>/</loc>
     <lastmod>2020-07-08T14:36:16+05:30</lastmod>
   </url>
@@ -15,10 +25,6 @@
   <url>
     <loc>/posts/technical-singularity/</loc>
     <lastmod>2020-07-08T14:36:16+05:30</lastmod>
-  </url>
-  
-  <url>
-    <loc>/categories/</loc>
   </url>
   
   <url>
