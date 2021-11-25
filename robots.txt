@@ -1,2 +1,3 @@
 User-agent: *
 Disallow: /mahabharata.html
+Disallow: /ramayana.html
